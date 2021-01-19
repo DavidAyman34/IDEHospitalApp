@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Edit ProfileVC-->
+        <scene sceneID="Snn-gu-cOz">
+            <objects>
+                <viewController storyboardIdentifier="EditProfileVC" id="Vln-ro-TF1" customClass="EditProfileVC" customModule="IDEHospital_Intake1_Team2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="L3o-b0-PWd" customClass="EditProfileView" customModule="IDEHospital_Intake1_Team2" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Component 2 – 2" translatesAutoresizingMaskIntoConstraints="NO" id="0bI-JA-98T">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tla-Ch-qSc">
+                                <rect key="frame" x="0.0" y="93" width="414" height="803"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bJk-1V-OW0">
+                                        <rect key="frame" x="0.0" y="-9" width="414" height="812"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b2Q-72-mER" customClass="CustomTextField" customModule="IDEHospital_Intake1_Team2" customModuleProvider="target">
+                                                <rect key="frame" x="30" y="146" width="361" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="x87-rL-r3C"/>
+                                                </constraints>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gzU-gG-xrs" customClass="CustomTextField" customModule="IDEHospital_Intake1_Team2" customModuleProvider="target">
+                                                <rect key="frame" x="30" y="211" width="361" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="DqX-z2-Xsk"/>
+                                                </constraints>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="xxxxxxxx" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GhM-ra-nXv" customClass="CustomTextField" customModule="IDEHospital_Intake1_Team2" customModuleProvider="target">
+                                                <rect key="frame" x="30" y="276" width="361" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="7pK-bQ-KLh"/>
+                                                </constraints>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s8A-Wh-HnE" customClass="CustomTextField" customModule="IDEHospital_Intake1_Team2" customModuleProvider="target">
+                                                <rect key="frame" x="30" y="81" width="361" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="nMj-69-Zrc"/>
+                                                </constraints>
+                                                <color key="textColor" systemColor="groupTableViewBackgroundColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kfm-Dg-7LF" customClass="CustomTextField" customModule="IDEHospital_Intake1_Team2" customModuleProvider="target">
+                                                <rect key="frame" x="30" y="341" width="361" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="IAM-pa-YPe"/>
+                                                </constraints>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Xz-ub-2WI" customClass="CustomTextField" customModule="IDEHospital_Intake1_Team2" customModuleProvider="target">
+                                                <rect key="frame" x="30" y="406" width="361" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="gA9-Uf-jUD"/>
+                                                </constraints>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                            </textField>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="B9H-PQ-1vV">
+                                                <rect key="frame" x="89.5" y="512" width="235" height="25"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hsr-9n-FQf">
+                                                        <rect key="frame" x="0.0" y="0.0" width="100" height="25"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="100" id="AKi-Kl-ZuK"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Yes"/>
+                                                        <connections>
+                                                            <action selector="saveProfilePressed:" destination="Vln-ro-TF1" eventType="touchUpInside" id="kTM-ry-IZv"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vj3-pP-sVq">
+                                                        <rect key="frame" x="135" y="0.0" width="100" height="25"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="100" id="Ap7-Sa-OHQ"/>
+                                                        </constraints>
+                                                        <state key="normal" title="No"/>
+                                                        <connections>
+                                                            <action selector="cancelProfilePressed:" destination="Vln-ro-TF1" eventType="touchUpInside" id="Mpi-z4-CjA"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="25" id="dmS-gz-cSH"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="gzU-gG-xrs" firstAttribute="leading" secondItem="bJk-1V-OW0" secondAttribute="leading" constant="30" id="1gT-Tg-blb"/>
+                                            <constraint firstAttribute="trailing" secondItem="Kfm-Dg-7LF" secondAttribute="trailing" constant="23" id="77z-YS-hLb"/>
+                                            <constraint firstAttribute="trailing" secondItem="GhM-ra-nXv" secondAttribute="trailing" constant="23" id="7rL-kE-3AK"/>
+                                            <constraint firstItem="b2Q-72-mER" firstAttribute="top" secondItem="s8A-Wh-HnE" secondAttribute="bottom" constant="25" id="ETl-Eh-myN"/>
+                                            <constraint firstItem="B9H-PQ-1vV" firstAttribute="top" secondItem="0Xz-ub-2WI" secondAttribute="bottom" constant="66" id="GAo-pr-oP4"/>
+                                            <constraint firstAttribute="trailing" secondItem="0Xz-ub-2WI" secondAttribute="trailing" constant="23" id="How-ec-ZHg"/>
+                                            <constraint firstItem="0Xz-ub-2WI" firstAttribute="top" secondItem="Kfm-Dg-7LF" secondAttribute="bottom" constant="25" id="LhM-kP-AvR"/>
+                                            <constraint firstAttribute="trailing" secondItem="gzU-gG-xrs" secondAttribute="trailing" constant="23" id="Mdf-Er-aaC"/>
+                                            <constraint firstItem="Kfm-Dg-7LF" firstAttribute="top" secondItem="GhM-ra-nXv" secondAttribute="bottom" constant="25" id="P5p-Fa-qFQ"/>
+                                            <constraint firstItem="b2Q-72-mER" firstAttribute="top" secondItem="s8A-Wh-HnE" secondAttribute="bottom" constant="25" id="PPo-nq-8k9"/>
+                                            <constraint firstItem="GhM-ra-nXv" firstAttribute="width" secondItem="gzU-gG-xrs" secondAttribute="width" id="Pzq-7f-fsJ"/>
+                                            <constraint firstItem="B9H-PQ-1vV" firstAttribute="centerX" secondItem="bJk-1V-OW0" secondAttribute="centerX" id="V1G-5I-MGo"/>
+                                            <constraint firstItem="gzU-gG-xrs" firstAttribute="top" secondItem="b2Q-72-mER" secondAttribute="bottom" constant="25" id="aPT-rg-uMo"/>
+                                            <constraint firstItem="GhM-ra-nXv" firstAttribute="top" secondItem="gzU-gG-xrs" secondAttribute="bottom" constant="25" id="b2V-zE-fvy"/>
+                                            <constraint firstItem="0Xz-ub-2WI" firstAttribute="leading" secondItem="bJk-1V-OW0" secondAttribute="leading" constant="30" id="cxB-L8-OQX"/>
+                                            <constraint firstItem="gzU-gG-xrs" firstAttribute="width" secondItem="b2Q-72-mER" secondAttribute="width" id="erX-vd-Y1P"/>
+                                            <constraint firstItem="s8A-Wh-HnE" firstAttribute="width" secondItem="b2Q-72-mER" secondAttribute="width" id="fEC-9r-ttX"/>
+                                            <constraint firstAttribute="trailing" secondItem="s8A-Wh-HnE" secondAttribute="trailing" constant="23" id="foj-t6-xUr"/>
+                                            <constraint firstItem="b2Q-72-mER" firstAttribute="leading" secondItem="bJk-1V-OW0" secondAttribute="leading" constant="30" id="gwq-M7-1CN"/>
+                                            <constraint firstAttribute="trailing" secondItem="b2Q-72-mER" secondAttribute="trailing" constant="23" id="hhb-Ip-2Ks"/>
+                                            <constraint firstItem="GhM-ra-nXv" firstAttribute="leading" secondItem="bJk-1V-OW0" secondAttribute="leading" constant="30" id="hjL-Ve-aQS"/>
+                                            <constraint firstItem="GhM-ra-nXv" firstAttribute="top" secondItem="gzU-gG-xrs" secondAttribute="bottom" constant="25" id="i3E-Df-xib"/>
+                                            <constraint firstItem="Kfm-Dg-7LF" firstAttribute="width" secondItem="GhM-ra-nXv" secondAttribute="width" id="iIX-ed-LSU"/>
+                                            <constraint firstItem="s8A-Wh-HnE" firstAttribute="leading" secondItem="bJk-1V-OW0" secondAttribute="leading" constant="30" id="ld4-Hd-5qM"/>
+                                            <constraint firstItem="s8A-Wh-HnE" firstAttribute="top" secondItem="bJk-1V-OW0" secondAttribute="top" constant="81" id="rB9-QN-yAw"/>
+                                            <constraint firstItem="Kfm-Dg-7LF" firstAttribute="top" secondItem="GhM-ra-nXv" secondAttribute="bottom" constant="25" id="uya-XK-9GS"/>
+                                            <constraint firstItem="gzU-gG-xrs" firstAttribute="top" secondItem="b2Q-72-mER" secondAttribute="bottom" constant="25" id="xv8-Ud-PtZ"/>
+                                            <constraint firstItem="Kfm-Dg-7LF" firstAttribute="leading" secondItem="bJk-1V-OW0" secondAttribute="leading" constant="30" id="yX1-pq-6Rv"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="bJk-1V-OW0" firstAttribute="leading" secondItem="Tla-Ch-qSc" secondAttribute="leading" id="0te-PL-syb"/>
+                                    <constraint firstAttribute="trailing" secondItem="bJk-1V-OW0" secondAttribute="trailing" id="26c-ep-IIg"/>
+                                    <constraint firstAttribute="bottom" secondItem="bJk-1V-OW0" secondAttribute="bottom" id="Lx0-8v-yOA"/>
+                                    <constraint firstItem="bJk-1V-OW0" firstAttribute="height" secondItem="Tla-Ch-qSc" secondAttribute="height" multiplier="1.01121" priority="250" id="l3j-B6-S7I"/>
+                                    <constraint firstItem="bJk-1V-OW0" firstAttribute="width" secondItem="Tla-Ch-qSc" secondAttribute="width" id="mpw-Jl-aQ5"/>
+                                    <constraint firstItem="bJk-1V-OW0" firstAttribute="top" secondItem="Tla-Ch-qSc" secondAttribute="top" constant="-9" id="uep-Xn-CeP"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="7jl-tT-O8c"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Oio-gH-l1e"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="45D-hX-FPX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0bI-JA-98T" firstAttribute="leading" secondItem="45D-hX-FPX" secondAttribute="leading" id="Fu8-yr-ALA"/>
+                            <constraint firstItem="Tla-Ch-qSc" firstAttribute="leading" secondItem="45D-hX-FPX" secondAttribute="leading" id="Jmd-z9-x4y"/>
+                            <constraint firstItem="Tla-Ch-qSc" firstAttribute="top" secondItem="45D-hX-FPX" secondAttribute="top" constant="49" id="LO7-B2-kzb"/>
+                            <constraint firstAttribute="bottom" secondItem="Tla-Ch-qSc" secondAttribute="bottom" id="NId-6O-4dO"/>
+                            <constraint firstAttribute="bottom" secondItem="0bI-JA-98T" secondAttribute="bottom" id="UKy-NJ-SIN"/>
+                            <constraint firstItem="Tla-Ch-qSc" firstAttribute="trailing" secondItem="45D-hX-FPX" secondAttribute="trailing" id="V6G-w6-SSM"/>
+                            <constraint firstItem="0bI-JA-98T" firstAttribute="top" secondItem="L3o-b0-PWd" secondAttribute="top" id="kOQ-Wt-U0O"/>
+                            <constraint firstItem="45D-hX-FPX" firstAttribute="trailing" secondItem="0bI-JA-98T" secondAttribute="trailing" id="kns-7Q-uZf"/>
+                        </constraints>
+                        <connections>
+                            <outlet property="emailTF" destination="b2Q-72-mER" id="2II-Cu-AAq"/>
+                            <outlet property="nameTF" destination="s8A-Wh-HnE" id="rs8-8v-Vb3"/>
+                            <outlet property="newPassTF" destination="Kfm-Dg-7LF" id="BBT-G6-UUf"/>
+                            <outlet property="noDesign" destination="vj3-pP-sVq" id="CpT-ou-sBb"/>
+                            <outlet property="oldPass" destination="GhM-ra-nXv" id="SbW-Gd-2Qk"/>
+                            <outlet property="phone" destination="gzU-gG-xrs" id="1ku-zB-lzS"/>
+                            <outlet property="reNewPassTF" destination="0Xz-ub-2WI" id="H4h-Eb-c7l"/>
+                            <outlet property="yesDesign" destination="hsr-9n-FQf" id="UyH-iy-UaW"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="editProfileView" destination="L3o-b0-PWd" id="wmY-PI-ot5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eRM-I5-6vX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="213.04347826086959" y="96.428571428571431"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Component 2 – 2" width="375" height="667"/>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

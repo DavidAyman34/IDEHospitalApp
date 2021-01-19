@@ -1,0 +1,6 @@
+framework module Pods_IDEHospital_Intake1_Team2 {
+  umbrella header "Pods-IDEHospital_Intake1_Team2-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Book AppointmentVC-->
+        <scene sceneID="ZGJ-Jf-bKA">
+            <objects>
+                <viewController storyboardIdentifier="bookAppointmentVC" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="9ZS-zF-Bt2" customClass="bookAppointmentVC" customModule="IDEHospital_Intake1_Team2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" opaque="NO" contentMode="scaleToFill" id="zWo-xt-WYd" customClass="bookAppointmentView" customModule="IDEHospital_Intake1_Team2" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ty9-0h-Lpz">
+                                <rect key="frame" x="13" y="257.5" width="350" height="152"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="569-En-MM5">
+                                        <rect key="frame" x="313" y="8" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="24" id="AkI-h6-N1Y"/>
+                                            <constraint firstAttribute="height" constant="24" id="VkZ-YZ-JpQ"/>
+                                        </constraints>
+                                        <state key="normal" image="cancelVoucher"/>
+                                        <connections>
+                                            <action selector="cancelPressed:" destination="9ZS-zF-Bt2" eventType="touchUpInside" id="db5-iA-Zui"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirm Your Appointment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NK8-2F-0pQ">
+                                        <rect key="frame" x="84" y="32" width="182.5" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ad0-3q-zLP">
+                                        <rect key="frame" x="15" y="60" width="322" height="54"/>
+                                        <string key="text" base64-UTF8="YES">
+WW91IGFyZSBhYm91dCB0byBib29rIGFuIGFwcG9pbnRtZW50A29uIE1vbmRheSwgMjMgT2N0b2JlciAy
+MDE3LCAwOTozMCBwbQMgd2l0aCBEb2N0b3IgTW9oYW1lZCBIYWxpbQ
+</string>
+                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9mG-d6-wkq">
+                                        <rect key="frame" x="125" y="113" width="100" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="gW7-A4-iZB"/>
+                                            <constraint firstAttribute="width" constant="100" id="za2-46-qaB"/>
+                                        </constraints>
+                                        <state key="normal" title="Confirm"/>
+                                        <connections>
+                                            <action selector="confirmPressed:" destination="9ZS-zF-Bt2" eventType="touchUpInside" id="Pyg-ef-pMN"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="ad0-3q-zLP" secondAttribute="trailing" constant="13" id="ERY-yn-IhL"/>
+                                    <constraint firstItem="NK8-2F-0pQ" firstAttribute="centerX" secondItem="Ty9-0h-Lpz" secondAttribute="centerX" id="NqM-we-Y4K"/>
+                                    <constraint firstItem="ad0-3q-zLP" firstAttribute="top" secondItem="NK8-2F-0pQ" secondAttribute="bottom" constant="10" id="Pf3-Dt-bQc"/>
+                                    <constraint firstAttribute="bottom" secondItem="9mG-d6-wkq" secondAttribute="bottom" constant="14" id="VCN-fr-OGT"/>
+                                    <constraint firstItem="NK8-2F-0pQ" firstAttribute="top" secondItem="569-En-MM5" secondAttribute="bottom" id="c3c-TD-wwr"/>
+                                    <constraint firstAttribute="height" constant="152" id="cYQ-1k-LCZ"/>
+                                    <constraint firstItem="9mG-d6-wkq" firstAttribute="centerX" secondItem="Ty9-0h-Lpz" secondAttribute="centerX" id="ebE-nS-N4C"/>
+                                    <constraint firstItem="ad0-3q-zLP" firstAttribute="leading" secondItem="Ty9-0h-Lpz" secondAttribute="leading" constant="15" id="sdy-zw-d8u"/>
+                                    <constraint firstItem="569-En-MM5" firstAttribute="top" secondItem="Ty9-0h-Lpz" secondAttribute="top" constant="8" id="woA-lS-To5"/>
+                                    <constraint firstAttribute="trailing" secondItem="569-En-MM5" secondAttribute="trailing" constant="13" id="zEd-4m-GqV"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wwt-VP-Ndg"/>
+                        <color key="backgroundColor" red="0.33725490196078434" green="0.33725490196078434" blue="0.33725490196078434" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ty9-0h-Lpz" firstAttribute="leading" secondItem="wwt-VP-Ndg" secondAttribute="leading" constant="13" id="2fK-fD-4SX"/>
+                            <constraint firstItem="wwt-VP-Ndg" firstAttribute="trailing" secondItem="Ty9-0h-Lpz" secondAttribute="trailing" constant="12" id="cVU-47-2zB"/>
+                            <constraint firstItem="Ty9-0h-Lpz" firstAttribute="centerY" secondItem="zWo-xt-WYd" secondAttribute="centerY" id="hnw-5n-GOy"/>
+                        </constraints>
+                        <connections>
+                            <outlet property="confirmDesign" destination="9mG-d6-wkq" id="ZKT-NE-lRk"/>
+                            <outlet property="confirmLabel" destination="NK8-2F-0pQ" id="kCZ-lg-let"/>
+                            <outlet property="detailsConfirmLabel" destination="ad0-3q-zLP" id="R7e-8C-osV"/>
+                            <outlet property="mainAppointView" destination="Ty9-0h-Lpz" id="4jt-D7-SQn"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="bookAppointView" destination="zWo-xt-WYd" id="LKQ-r6-9tM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H00-0P-gnz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="323" y="187"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cancelVoucher" width="24" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

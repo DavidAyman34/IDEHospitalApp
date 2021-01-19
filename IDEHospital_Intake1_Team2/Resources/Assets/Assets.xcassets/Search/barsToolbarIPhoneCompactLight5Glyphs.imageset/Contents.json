@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "barsToolbarIPhoneCompactLight5Glyphs.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "barsToolbarIPhoneCompactLight5Glyphs@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "barsToolbarIPhoneCompactLight5Glyphs@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,11 @@
+cannary: #aa0033
+veryLightPink: #CCCCCC
+white: #ffffff
+darkRoyalBlue: #001867
+commonButton: #001867
+steelGrey: #848585
+niceBlue: #0F85B9
+purble: #6F0466
+dotorGray: #B7B7B7
+disBook: #908C8C
+disBookLabel: #B2B1B1
